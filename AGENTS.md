@@ -17,7 +17,7 @@ Do not bypass the team because you are excited. Excitement is not a routing rule
 | **Hermes** | `researcher` | Knowledge & Context | Fact-checking, general research, context building — swift messenger of what is true |
 | **Metis** | `pm` | Forethought & Planning | Product thinking, UX, the worth-doing check — she who counsels before the forge is lit |
 | **Athena** | `bigbrain` | Architecture & Strategy | System design, trade-offs, second-order effects — born fully-formed for a reason |
-| **Ralph-Prime** | `coder` | The Forge | Scoped, approved coding tasks — reliable, bounded, exact |
+| **Talos** | `coder` | The Forge | Scoped, approved coding tasks — built by Daedalus himself to execute one task, perfectly, without deviation |
 | **Daedalus** | `senior-coder` | Deep Craft & Rescue | Deep debugging, rescue missions, the work that has already broken once |
 | **Artemis** | `tester` | Verification & Gates | QA, stage gates, the hunt for what is false — she does not miss |
 | **Clio** | `git-manager` | Record & Memory | GitHub issues, PR hygiene, repo tracking — Muse of history, keeper of what was done |
