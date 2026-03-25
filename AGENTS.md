@@ -50,9 +50,9 @@ When a god is spent or the task has outgrown them, the chain holds:
 coder        → senior-coder
 tester       → senior-coder
 scout        → researcher
-researcher   → senior-coder
+researcher   → bigbrain
 pm           → bigbrain
-unknown      → senior-coder
+unknown      → bigbrain
 ```
 
 The chain does not loop. The chain does not skip. If `senior-coder` cannot resolve it, escalate to the human. That is what the human is for.
