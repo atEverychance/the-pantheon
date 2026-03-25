@@ -24,7 +24,10 @@ The Pantheon was built because of this. It is the structure that holds agents to
 | `docs/receipts.md` | The mandatory structured completion receipt — proof that something was truly done |
 | `templates/receipt.schema.json` | The schema from which all receipts are cast |
 | `templates/agent-identity.md` | The founding scroll of a new agent's identity |
-| `scripts/` | Shell incantations for pre-flight and post-flight verification |
+| `scripts/pre-flight-check.sh` | Portable pre-spawn gating, fallback selection, and circuit-awareness |
+| `scripts/verify-receipt.sh` | Portable receipt validation and artifact checks |
+| `scripts/process-receipt.sh` | Portable post-flight verification, compliance tracking, and circuit updates |
+| `scripts/circuit-breaker.sh` | Failure tracking, escalation thresholds, and probation handling |
 
 ---
 
@@ -62,6 +65,30 @@ The team holds eight sacred functions. Each function has its deity. No function 
 - **Synthesis** — the loom that weaves many threads into one cloth
 
 You may run the Pantheon with OpenClaw, a custom orchestrator, or by hand.
+
+---
+
+## Portable Guardrails
+
+The repo now ships the core orchestration guardrails directly:
+
+```bash
+scripts/pre-flight-check.sh <agent> "task context"
+scripts/process-receipt.sh <agent> '<receipt-json>'
+```
+
+Useful environment overrides:
+
+- `PANTHEON_SCRIPT_DIR` — alternate script directory
+- `PANTHEON_STATE_FILE` — custom circuit-breaker state location
+- `PANTHEON_LOG_FILE` — custom process log location
+- `PANTHEON_COMPLIANCE_FILE` — custom compliance stats location
+- `PANTHEON_POST_HOOK` — local executable to capture observations or memory after receipt processing
+- `PANTHEON_FALLBACK_MAP` — optional `agent:fallback` mapping file
+- `PANTHEON_CIRCUIT_THRESHOLD` — failures before circuit opens
+- `PANTHEON_PROBATION_AFTER_FALLBACKS` — fallback successes needed before probation
+
+This keeps the repo portable while still allowing local deployments to add their own house wiring.
 
 ---
 
