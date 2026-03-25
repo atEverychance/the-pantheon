@@ -1,13 +1,14 @@
 {
+  "$comment": "The Receipt — no claim of completion is accepted without it. A receipt is not proof. Only what can be independently verified is proof. Fill every field. Leave nothing to faith.",
   "receipt": {
     "agent": "workspace-id",
-    "task": "short task description",
+    "task": "what was decreed — state it plainly, as Thucydides would, not as a hero would",
     "status": "completed|partial|failed|unverifiable",
     "outputs": [],
     "claims": [
       {
         "type": "file_created|file_modified|build_passes|command_succeeds|runtime_behavior|forbidden_marker_absent|asserted|observed|verified",
-        "target": "exact file path, command, endpoint behavior, or pattern::file"
+        "target": "exact file path, command, endpoint, or pattern — the Fates do not accept vague offerings"
       }
     ],
     "evidence": {
