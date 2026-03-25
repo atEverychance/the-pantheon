@@ -1,0 +1,22 @@
+{
+  "receipt": {
+    "agent": "workspace-id",
+    "task": "short task description",
+    "status": "completed|partial|failed|unverifiable",
+    "outputs": [],
+    "claims": [
+      {
+        "type": "file_created|file_modified|build_passes|command_succeeds|runtime_behavior|forbidden_marker_absent|asserted|observed|verified",
+        "target": "exact file path, command, endpoint behavior, or pattern::file"
+      }
+    ],
+    "evidence": {
+      "commands_run": [],
+      "artifacts": [],
+      "notes": []
+    },
+    "confidence": 0.95,
+    "uncertainties": [],
+    "observations": []
+  }
+}
