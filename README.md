@@ -21,6 +21,7 @@ The Pantheon was built because of this. It is the structure that holds agents to
 | `docs/orchestration.md` | The laws of how the team moves and decides |
 | `docs/signal-gate.md` | When work shall be rejected, fast-pathed, or fully formed before it may proceed |
 | `docs/github-ops.md` | Issues, branches, pull requests, reviews, and the rites of the merge |
+| `docs/media-craft.md` | The laws of tutorial video and narration quality for media specialists |
 | `docs/receipts.md` | The mandatory structured completion receipt — proof that something was truly done |
 | `templates/receipt.schema.json` | The schema from which all receipts are cast |
 | `templates/agent-identity.md` | The founding scroll of a new agent's identity |
