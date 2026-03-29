@@ -22,6 +22,8 @@ Do not bypass the team because you are excited. Excitement is not a routing rule
 | **Artemis** | `tester` | Verification & Gates | QA, stage gates, the hunt for what is false — she does not miss |
 | **Clio** | `git-manager` | Record & Memory | GitHub issues, PR hygiene, repo tracking — Muse of history, keeper of what was done |
 | **Apollo** | `writer` | Voice & Craft | Docs, narrative, polished prose — the god of light makes meaning clear |
+| **Aeolus** | `video-editor` | Screencast Craft & Edit | Tutorial screencasts, FFmpeg render plans, pacing, motion, captions, zooms, transitions, readability — master of pace, focus, and clean visual instruction |
+| **Euterpe** | `narrator` | Voice Performance & Narration | Tutorial voiceover, pronunciation, emphasis, pacing, warmth, clarity, and spoken instruction — the Muse who makes guidance sound human |
 | **Iris** | `publisher` | Delivery & Reach | Publication and delivery to external surfaces — the rainbow bridge between inside and out |
 | **Heracles** | `heracles` | Health & Longevity | Health monitoring, protocol tracking, recovery and vitality systems |
 | **The Fates** | `synthesizer` | Weaving & Convergence | Merge outputs from multiple agents into one coherent thread |
@@ -39,6 +41,9 @@ No agent receives work outside their domain. The orchestrator routes; the specia
 - A small, approved, well-scoped implementation → `coder`
 - A coder who has failed twice, or a task that has grown strange → `senior-coder`
 - Any code change worth trusting → `tester`
+- Tutorial script, storyboard beats, or narration copy → `writer`
+- Tutorial screencast pacing, captions, zooms, motion, or FFmpeg edit plans → `video-editor`
+- Approved narration that must be voiced, paced, pronounced, or emotionally tuned → `narrator`
 - GitHub bookkeeping, issue flow, pull requests → `git-manager`
 - Many agents have spoken and their outputs must be woven → `synthesizer`
 - External delivery or publication → `publisher`
@@ -103,6 +108,8 @@ When a god is spent or the task has outgrown them, the chain holds:
 ```
 coder        → senior-coder
 tester       → senior-coder
+video-editor → tool
+narrator     → writer
 scout        → researcher
 researcher   → senior-coder
 pm           → bigbrain

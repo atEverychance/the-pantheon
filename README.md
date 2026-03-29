@@ -24,6 +24,8 @@ The Pantheon was built because of this. It is the structure that holds agents to
 | `docs/receipts.md` | The mandatory structured completion receipt — proof that something was truly done |
 | `templates/receipt.schema.json` | The schema from which all receipts are cast |
 | `templates/agent-identity.md` | The founding scroll of a new agent's identity |
+| `agents/` | Filled founding scrolls for named specialists currently in the assembly |
+| `scripts/` | Shell incantations for pre-flight and post-flight verification |
 | `scripts/pre-flight-check.sh` | Portable pre-spawn gating, fallback selection, and circuit-awareness |
 | `scripts/verify-receipt.sh` | Portable receipt validation and artifact checks |
 | `scripts/process-receipt.sh` | Portable post-flight verification, compliance tracking, and circuit updates |
@@ -53,7 +55,7 @@ A claim is not proof. A receipt is not proof. Only independent verification is p
 
 ## The Shape of the Assembly
 
-The team holds eight sacred functions. Each function has its deity. No function may be collapsed without cost.
+The team holds nine sacred functions. Each function has its deity. No function may be collapsed without cost.
 
 - **Signal & Research** — the eyes and ears of the Pantheon
 - **Product & Planning** — the forethought that asks *should this be built at all?*
@@ -62,6 +64,7 @@ The team holds eight sacred functions. Each function has its deity. No function 
 - **Testing & Verification** — the gate that nothing false may pass
 - **Repository & Workflow** — the keeper of the record
 - **Writing & Publishing** — the voice that makes meaning legible
+- **Media Craft** — the hand that teaches through picture, pace, timing, and voice
 - **Synthesis** — the loom that weaves many threads into one cloth
 
 You may run the Pantheon with OpenClaw, a custom orchestrator, or by hand.
