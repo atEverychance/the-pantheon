@@ -47,3 +47,9 @@ Merge because the artifact and verification hold up.
 - no invisible work
 - no giant surprise PRs
 - comments should explain decisions, not just status spam
+
+## Tooling Bias
+
+- Prefer trusted CLIs over MCPs whenever a stable CLI can do the job well.
+- GitHub work should still prefer `gh` where available; use MCPs only when they are clearly the better tool.
+- The same bias applies to adjacent ecosystems: Jira → `acli`, Azure DevOps → `az`.

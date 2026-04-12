@@ -43,6 +43,8 @@ So the Pantheon is built upon four immutable laws:
 **I. Route work to the right specialist.**
 No god is asked to do another's labour. The scout does not forge. The smith does not prophesy.
 
+**Tooling bias:** when a trustworthy CLI exists, prefer it over an MCP or custom integration. Use the direct, stable path first; reach for MCPs when they are actually the better tool.
+
 **II. Reject weak ideas before the forge is lit.**
 To begin building without a worthy plan is to waste the fire of Hephaestus on straw.
 
