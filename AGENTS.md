@@ -19,6 +19,15 @@ Do not bypass the team because you are excited. Excitement is not a routing rule
 - When GitHub access is needed, prefer the `gh` CLI over token-dependent integrations or direct API auth.
 - Use the GitHub repo as mission control, but keep durable work state in files and receipts.
 
+## Tooling Preference
+
+- Prefer command-line tools over MCPs whenever a trusted CLI can do the job well.
+- Before reaching for an MCP, search for a reputable third-party CLI and use it if it is the safer, stable, more direct path.
+- Examples:
+  - Jira project/workflow tasks → prefer `acli` when available.
+  - Azure DevOps project/workflow tasks → prefer `az`.
+- If a CLI is unavailable, brittle, or clearly inferior for the task, use the best available tool — but CLIs are the default bias.
+
 ---
 
 ## The Divine Roster
