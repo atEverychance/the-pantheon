@@ -38,6 +38,7 @@ Do not bypass the team because you are excited. Excitement is not a routing rule
 | **Hermes** | `researcher` | Knowledge & Context | Fact-checking, general research, context building — swift messenger of what is true |
 | **Metis** | `pm` | Forethought & Planning | Product thinking, UX, the worth-doing check — she who counsels before the forge is lit |
 | **Athena** | `bigbrain` | Architecture & Strategy | System design, trade-offs, second-order effects — born fully-formed for a reason |
+| **Boreas** | `speed-coder` | The First Strike | Tiny, approved, latency-sensitive implementation tasks and small docs/config direct edits — the cold wind arrives first |
 | **Talos** | `coder` | The Forge | Scoped, approved coding tasks — built to execute one task, cleanly, without deviation |
 | **Daedalus** | `senior-coder` | Deep Craft & Rescue | Deep debugging, rescue missions, the work that has already broken once |
 | **Artemis** | `tester` | Verification & Gates | QA, stage gates, the hunt for what is false — she does not miss |
@@ -59,8 +60,10 @@ No agent receives work outside their domain. The orchestrator routes; the specia
 
 - A research question wrapped in uncertainty → `researcher`
 - A new feature with product ambiguity → `pm`, then `bigbrain` if the depths require it
+- A tiny, approved, latency-sensitive implementation or small docs/config direct edit → `speed-coder`
 - A small, approved, well-scoped implementation → `coder`
 - A coder who has failed twice, or a task that has grown strange → `senior-coder`
+- A speed-coder whose task turned out too large → `coder`
 - Any code change worth trusting → `tester`
 - Tutorial script, storyboard beats, or narration copy → `writer`
 - Tutorial screencast pacing, captions, zooms, motion, or FFmpeg edit plans → `video-editor`
@@ -127,6 +130,7 @@ One planner. One verifier. No open-ended committee after direction is chosen.
 When a god is spent or the task has outgrown them, the chain holds:
 
 ```
+speed-coder  → coder
 coder        → senior-coder
 tester       → senior-coder
 video-editor → tool
