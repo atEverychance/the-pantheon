@@ -48,7 +48,7 @@ get_fallback() {
     senior-coder)  echo "senior-coder" ;;
     synthesizer)   echo "bigbrain" ;;
     publisher)     echo "writer" ;;
-    artist)        echo "marketer" ;;
+    artist)        echo "pm" ;;
     tool)          echo "senior-coder" ;;
     *)             echo "senior-coder" ;;
   esac
