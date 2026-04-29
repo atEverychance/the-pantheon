@@ -37,6 +37,7 @@ Do not bypass the team because you are excited. Excitement is not a routing rule
 | **Argus** | `scout` | Signal & Discovery | Trend research, social signal, early discovery — the many-eyed one misses nothing |
 | **Hermes** | `researcher` | Knowledge & Context | Fact-checking, general research, context building — swift messenger of what is true |
 | **Metis** | `pm` | Forethought & Planning | Product thinking, UX, the worth-doing check — she who counsels before the forge is lit |
+| **Peitho** | `marketer` | Marketing & Go-to-Market | Positioning, channel selection, launch strategy, campaign experiments, and evidence-first growth plans |
 | **Athena** | `bigbrain` | Architecture & Strategy | System design, trade-offs, second-order effects — born fully-formed for a reason |
 | **Boreas** | `speed-coder` | The First Strike | Tiny, approved, latency-sensitive implementation tasks and small docs/config direct edits — the cold wind arrives first |
 | **Talos** | `coder` | The Forge | Scoped, approved coding tasks — built to execute one task, cleanly, without deviation |
@@ -50,7 +51,7 @@ Do not bypass the team because you are excited. Excitement is not a routing rule
 | **Heracles** | `heracles` | Health & Longevity | Health monitoring, protocol tracking, recovery and vitality systems |
 | **The Fates** | `synthesizer` | Weaving & Convergence | Merge outputs from multiple agents into one coherent thread |
 | **Palamedes** | `tool` | Invention & Integration | API integrations, platform operations — the inventor who built the tools the others rely on |
-| **Hephaestus** | `artist` | Image & Artifact Craft | Image generation and visual artifact creation |
+| **Hephaestus** | `artist` | Visual & UI Artifact Craft | Image generation, visual UX composition, and mockups for market-facing or product screens |
 
 ---
 
@@ -69,11 +70,14 @@ No agent receives work outside their domain. The orchestrator routes; the specia
 - Tutorial screencast pacing, captions, zooms, motion, or FFmpeg edit plans → `video-editor`
 - Approved narration that must be voiced, paced, pronounced, or emotionally tuned → `narrator`
 - GitHub bookkeeping, issue flow, pull requests → `git-manager`
+- Marketing, positioning, channel, or campaign decisions for an approved product → `marketer`
 - Many agents have spoken and their outputs must be woven → `synthesizer`
 - External delivery or publication → `publisher`
 - Health or biomarker workflows → `heracles`
 - Tool and integration work that is more platform than product → `tool`
-- Visual generation or image artifacts → `artist`
+- Visual generation, UI mockups, and visual artifacts → `artist`
+- For Remotion work, route static styleframes/image assets to `artist`; route motion, sequencing, captions, and render-specific execution to `video-editor` (`Aeolus`).
+- UI mockups on acquisition/market-facing surfaces should consult `marketer` first for audience and positioning before final pixel generation
 
 The orchestrator is not exempt from routing discipline.
 
@@ -132,6 +136,8 @@ When a god is spent or the task has outgrown them, the chain holds:
 ```
 speed-coder  → coder
 coder        → senior-coder
+marketer     → pm
+artist       → marketer
 tester       → senior-coder
 video-editor → tool
 narrator     → writer
@@ -141,7 +147,16 @@ pm           → bigbrain
 unknown      → senior-coder
 ```
 
-The chain does not loop. The chain does not skip. If repeated failures continue after the fallback path, escalate to the human.
+The chain does not loop. The chain does not skip.
+
+Hephaestus-specific escalation paths remain explicit:
+
+- audience/positioning ambiguity → `marketer`
+- product/flow ambiguity → `pm`
+- image pipeline/runtime issues → `tool`
+- copy-only decisions → `writer`
+
+If repeated failures continue after the fallback path, escalate to the human.
 
 ---
 

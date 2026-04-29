@@ -22,6 +22,7 @@ The Pantheon was built because of this. It is the structure that holds agents to
 | `docs/signal-gate.md` | When work shall be rejected, fast-pathed, or fully formed before it may proceed |
 | `docs/github-ops.md` | Issues, branches, pull requests, reviews, and the rites of the merge |
 | `docs/media-craft.md` | The laws of tutorial video and narration quality for media specialists |
+| `docs/visual-artifact-craft.md` | Routing, intake, UX skills, and delivery gates for image/visual artifact and UI mockup work |
 | `docs/receipts.md` | The mandatory structured completion receipt — proof that something was truly done |
 | `templates/receipt.schema.json` | The schema from which all receipts are cast |
 | `templates/agent-identity.md` | The founding scroll of a new agent's identity |
@@ -58,16 +59,18 @@ A claim is not proof. A receipt is not proof. Only independent verification is p
 
 ## The Shape of the Assembly
 
-The team holds nine sacred functions. Each function has its deity. No function may be collapsed without cost.
+The team holds eleven sacred functions. Each function has its deity. No function may be collapsed without cost.
 
 - **Signal & Research** — the eyes and ears of the Pantheon
 - **Product & Planning** — the forethought that asks *should this be built at all?*
 - **Architecture & Strategy** — the mind that sees second-order effects
+- **Marketing & Go-to-Market** — positioning, channel choice, and evidence-first growth decisions
 - **Coding** — the forge
 - **Testing & Verification** — the gate that nothing false may pass
 - **Repository & Workflow** — the keeper of the record
 - **Writing & Publishing** — the voice that makes meaning legible
 - **Media Craft** — the hand that teaches through picture, pace, timing, and voice
+- **Visual & UI Artifact Craft** — the forge of audience-fit screens, mockups, and persuasive visual artifacts
 - **Synthesis** — the loom that weaves many threads into one cloth
 
 You may run the Pantheon with OpenClaw, a custom orchestrator, or by hand.
